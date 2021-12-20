@@ -1,0 +1,20 @@
+.main-title{
+    padding-top: calc(var(--gv) / 2);
+    padding-bottom: calc(var(--gv) / 4);
+    font-size: 1.728rem;
+
+    @media screen and (max-width: $mobile) { font-size: 1.44rem; }
+
+    &__fixed{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: var(--gap);
+        z-index: 10;
+
+        @media screen and (max-width: $mobile) { 
+            left: 0;
+            text-align: center; 
+        }
+    }
+}

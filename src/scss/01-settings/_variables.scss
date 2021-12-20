@@ -1,0 +1,23 @@
+$black: #191b1f;
+$red: #d12f26;
+$white: #ffffff;
+$gray: #86878f;
+
+$max-width: 1200px;
+$radius: 16px;
+
+$dmedium: 1000px;
+$tablet: 800px;
+$mobile: 600px;
+
+:root{
+    --gv: 60px;
+    --gh: 45px;
+    --gap: 20px;
+
+    @media screen and (max-width: $dmedium) { --gv: 45px; }
+    @media screen and (max-width: $tablet) { --gh: 30px; --gv: 45px; }
+    @media screen and (max-width: $mobile) { --gh: 20px; --gv: 20px; }
+}
+
+
